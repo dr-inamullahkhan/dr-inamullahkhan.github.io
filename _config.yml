@@ -1,7 +1,6 @@
 # Site Settings
 # Do not use trailing slash (i.e. "/Sample"). For skipping base URL, leave empty quotes ("")
-baseurl: " "
-url: "https://dr-inamullahkhan.github.io"
+baseurl: ""
 
 # Features Setting
 # Turn subpages on or off
