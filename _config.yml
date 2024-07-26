@@ -1,6 +1,7 @@
 # Site Settings
 # Do not use trailing slash (i.e. "/Sample"). For skipping base URL, leave empty quotes ("")
-baseurl: ""
+baseurl: "/dr-inamullahkhan"  # this should match the repository name if your site is not at the root domain
+url: "https://dr-inamullahkhan.github.io"  # this should be your site's base hostname
 
 # Features Setting
 # Turn subpages on or off
