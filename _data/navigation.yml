@@ -1,0 +1,18 @@
+# main links links
+main:
+  - title: "Home"
+    url: /
+
+  - title: "Research"
+    url: /research/
+
+  - title: "Publications"
+    url: /publications/
+ 
+  - title: "Teaching"
+    url: /teaching/    
+   
+  - title: "CV"
+    url: https://dr-inamullahkhan.github.io/files/inam_CV.pdf
+    
+
