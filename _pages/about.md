@@ -4,15 +4,11 @@ title: "About Me"
 author_profile: true
 ---
 
-<!-- <p class="buttons" style="text-align:left;">
-    <a class="btn btn--research" target="_blank" href="https://namedrop.io/inamullah">Hear my name</a>
-</p> -->
-
 I am currently a **Research Fellow** at the <a href="https://www.smu.edu/Lyle/Departments/ECE" target="_blank">Department of Electrical and Computer Engineering, Southern Methodist University</a>, Texas, working on the **Innovation Engine Project** funded by the <a href="https://new.nsf.gov/funding/initiatives/nsf-engines" target="_blank">National Science Foundation (NSF)</a>.  
 I hold a Ph.D. in Electrical Engineering (Data Science Focus) from <a href="https://www.lancaster.ac.uk/engineering/" target="_blank">Lancaster University</a>, UK, where my research focused on **data-driven modeling and control in smart grids**.  
 I also earned my Master’s degree in Electrical Engineering (Power Systems) from <a href="https://www.comsats.edu.pk/" target="_blank">COMSATS University Islamabad</a>, Pakistan.
 
-Previously, I worked as a **Research Fellow** at <a href="https://www.edgehill.ac.uk/" target="_blank">Edge Hill University</a> and <a href="https://www.lancaster.ac.uk/" target="_blank">Lancaster University</a>, UK, and as an **Assistant Professor** at <a href="https://www.comsats.edu.pk/" target="_blank">COMSATS University Islamabad</a>. I have contributed to multiple high-impact funded projects from NSF (USA), the British Council (UK), and the EU, delivering AI-driven solutions in **smart grids, wireless networks, and cyber-physical systems**..kjkj
+Previously, I worked as a **Research Fellow** at <a href="https://www.edgehill.ac.uk/" target="_blank">Edge Hill University</a> and <a href="https://www.lancaster.ac.uk/" target="_blank">Lancaster University</a>, UK, and as an **Assistant Professor** at <a href="https://www.comsats.edu.pk/" target="_blank">COMSATS University Islamabad</a>. I have contributed to multiple high-impact funded projects from NSF (USA), the British Council (UK), and the EU, delivering AI-driven solutions in **smart grids, wireless networks, and cyber-physical systems**.
 
 ## Research Interests
 * Artificial Intelligence & Machine Learning
