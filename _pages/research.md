@@ -35,6 +35,8 @@ Developed robust frameworks for **attack-resilient power grids**, including **he
 - IEEE Transactions on Instrumentation and Measurement, 2025  
 - Elsevier Energy Reports, 2025  
 
+<img src="/images/StackedModel.png" alt="Smart Grid Visualization" title="Smart Grid Research" style="width: 50%;">
+
 ---
 
 ## **_Big Data Analytics for Smart Grid Optimization_**
@@ -46,6 +48,8 @@ Developed **big data analytics frameworks** for:
 - Optimal power flow solutions using **Augmented Grey Wolf Optimization**.
 
 These models improved forecasting accuracy and reduced computational costs, enabling scalable deployment in large-scale power networks.
+
+<img src="/images/SmartGrid.png" alt="Smart Grid Visualization" title="Smart Grid Research" style="width: 50%;">
 
 ---
 
