@@ -22,7 +22,7 @@ My work has led to **15+ peer-reviewed publications** in top-tier IEEE and Elsev
 I am particularly interested in **bridging the gap between AI theory and real-world applications**, enabling resilient, sustainable, and secure infrastructure systems.
 
 ## Prospective Collaborations
-I am always open to research collaborations, particularly in interdisciplinary projects involving AI, power systems, and critical infrastructure. If you are interested in working with me, please make your email subject line **"Collaboration with Dr. Inam Ullah"** and include your CV and a concise research proposal.
+I am always open to research collaborations, particularly in interdisciplinary projects involving AI, power systems, and critical infrastructure. If you are interested in working with me, please make your email subject line **"Collaboration Proposal"** and include your CV and a concise research proposal.
 
 ## Selected Publications
 You can find my full list of publications on  
