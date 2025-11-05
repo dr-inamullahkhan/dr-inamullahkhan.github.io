@@ -168,15 +168,15 @@ The PDF files linked on this page are shared in accordance with the copyright po
 # 2022
 
 **IU Khan, N Javaid, CJ Taylor, X Ma, “Robust data driven analysis for electricity theft attack-resilient power grid,” _IEEE Transactions on Power Systems_, 2022.**
-<div class="button-group-ULLAH_TIM2025" style="display:flex;gap:10px;text-align:center;justify-content:center;">
+<div class="button-group-ULLAH_TPS2025" style="display:flex;gap:10px;text-align:center;justify-content:center;">
 
-  <button id="abstractButton-ULLAH_TIM2025" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_TIM2025','abstractButton-ULLAH_TIM2025')">Abstract</button>
+  <button id="abstractButton-ULLAH_TPS2025" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_TPS2025','abstractButton-ULLAH_TPS2025')">Abstract</button>
   <a class="btn btn--research" target="_blank" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9743316">Link</a>
   <!-- <a class="btn btn--research" target="_blank" href="/files/papers/Inam_CV.pdf">Download</a>
   <a class="btn btn--research" target="_blank" href="https://github.com/dr-inamullahkhan/">Code</a> -->
 </div>
 
-<div id="abstract-ULLAH_TIM2025" style="display:none">
+<div id="abstract-ULLAH_TPS2025" style="display:none">
   <p>The role of electricity theft detection (ETD) is critical to maintain cost-efficiency in smart grids. However, existing ETD methods cannot efficiently handle the sheer volume of data now available, being limited by issues such as missing values, high variance and non-linearity. An integrated infrastructure is also required for synchronizing diverse procedures in electricity theft classification. To help address such problems, a novel ETD framework is proposed that combines three distinct modules. The first module handles missing values, outliers, and unstandardised electricity consumption data. The second module employs a newly proposed hybrid class balancing approach to deal with highly imbalanced datasets. The third module utilises an improved artificial neural network (iANN) based classification engine, to predict electricity theft cases accurately and efficiently. We propose three distinctive mechanisms, including hyper-parameters tuning, regularization and skip connections, to improve the performance of standard ANN to handle more complex classification tasks using smart meter (SM) data. Furthermore, various structures of iANN are investigated to improve the generalization and function fitting capabilities of the final classification. Numerical results from real-world energy usage datasets confirm that the proposed ETD model has superior performance compared to existing machine learning and deep learning methods, and can effectively be applied to industrial applications.</p>
 </div>
 
@@ -186,15 +186,15 @@ The PDF files linked on this page are shared in accordance with the copyright po
 
 
 **IU Khan, N Javeid, CJ Taylor, KAA Gamage, X Ma, “A Stacked Machine and Deep Learning-Based Approach for Analysing Electricity Theft in Smart Grids,” _IEEE Transactions on Smart Grid_, 2022.**
-<div class="button-group-ULLAH_TIM2025" style="display:flex;gap:10px;text-align:center;justify-content:center;">
+<div class="button-group-ULLAH_TSG2022" style="display:flex;gap:10px;text-align:center;justify-content:center;">
 
-  <button id="abstractButton-ULLAH_TIM2025" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_TIM2025','abstractButton-ULLAH_TIM2025')">Abstract</button>
+  <button id="abstractButton-ULLAH_TSG2022" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_TSG2022','abstractButton-ULLAH_TSG2022')">Abstract</button>
   <a class="btn btn--research" target="_blank" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9644473">Link</a>
   <!-- <a class="btn btn--research" target="_blank" href="/files/papers/Inam_CV.pdf">Download</a>
   <a class="btn btn--research" target="_blank" href="https://github.com/dr-inamullahkhan/">Code</a> -->
 </div>
 
-<div id="abstract-ULLAH_TIM2025" style="display:none">
+<div id="abstract-ULLAH_TSG2022" style="display:none">
   <p>The role of electricity theft detection (ETD) is critical to maintain cost-efficiency in smart grids. However, existing methods for theft detection can struggle to handle large electricity consumption datasets because of missing values, data variance and nonlinear data relationship problems, and there is a lack of integrated infrastructure for coordinating electricity load data analysis procedures. To help address these problems, a simple yet effective ETD model is developed. Three modules are combined into the proposed model. The first module deploys a combination of data imputation, outlier handling, normalization and class balancing algorithms, to enhance the time series characteristics and generate better quality data for improved training and learning by the classifiers. Three different machine learning (ML) methods, which are uncorrelated and skillful on the problem in different ways, are employed as the base learning model. Finally, a recently developed deep learning approach, namely a temporal convolutional network (TCN), is used to ensemble the outputs of the ML algorithms for improved classification accuracy. Experimental results confirm that the proposed framework yields a highly-accurate, robust classification performance, in comparison to other well-established machine and deep learning models and thus can be a practical tool for electricity theft detection in industrial applications.</p>
 </div>
 
@@ -207,15 +207,15 @@ The PDF files linked on this page are shared in accordance with the copyright po
 ## Thesis
 
 **IU Khan, “Optimal Demand Supply Energy Management in Smart Grid,” _PhD Thesis (University)_, 2022.**
-<div class="button-group-ULLAH_TIM2025" style="display:flex;gap:10px;text-align:center;justify-content:center;">
+<div class="button-group-ULLAH_THESIS2022" style="display:flex;gap:10px;text-align:center;justify-content:center;">
 
-  <button id="abstractButton-ULLAH_TIM2025" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_TIM2025','abstractButton-ULLAH_TIM2025')">Abstract</button>
+  <button id="abstractButton-ULLAH_THESIS2022" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_THESIS2022','abstractButton-ULLAH_THESIS2022')">Abstract</button>
   <a class="btn btn--research" target="_blank" href="https://www.proquest.com/openview/a9ce55b3dfa05b00131d9d8ef133e3d5/1?pq-origsite=gscholar&cbl=2026366&diss=y">Link</a>
   <!-- <a class="btn btn--research" target="_blank" href="/files/papers/Inam_CV.pdf">Download</a>
   <a class="btn btn--research" target="_blank" href="https://github.com/dr-inamullahkhan/">Code</a> -->
 </div>
 
-<div id="abstract-ULLAH_TIM2025" style="display:none">
+<div id="abstract-ULLAH_THESIS2022" style="display:none">
   <p> Everything goes down if you do not have power: the nancial sector, re neries and
  water. The grid underlies the rest of the countrys critical infrastructure. This
  thesis focuses on four speci c problems to balance demand-supply gap with higher
@@ -279,16 +279,16 @@ vide helpful information to grid planners seeking to improve the resilience of t
 # 2021
 
 **IU Khan, N Javaid, CJ Taylor, KAA Gamage, X Ma, “Big Data Analytics for Electricity Theft Detection in Smart Grids,” _IEEE PES PowerTech_, 2021.**
-<div class="button-group-ULLAH_TIM2025" style="display:flex;gap:10px;text-align:center;justify-content:center;">
+<div class="button-group-ULLAH_POWTECH2021" style="display:flex;gap:10px;text-align:center;justify-content:center;">
 
-  <button id="abstractButton-ULLAH_TIM2025" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_TIM2025','abstractButton-ULLAH_TIM2025')">Abstract</button>
+  <button id="abstractButton-ULLAH_POWTECH2021" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_POWTECH2021','abstractButton-ULLAH_POWTECH2021')">Abstract</button>
 
   <a class="btn btn--research" target="_blank" href="https://eprints.gla.ac.uk/250578/1/250578.pdf">Link</a>
   <!-- <a class="btn btn--research" target="_blank" href="/files/papers/Inam_CV.pdf">Download</a>
   <a class="btn btn--research" target="_blank" href="https://github.com/dr-inamullahkhan/">Code</a> -->
 </div>
 
-<div id="abstract-ULLAH_TIM2025" style="display:none">
+<div id="abstract-ULLAH_POWTECH2021" style="display:none">
   <p>In Smart Grids (SG), Electricity Theft Detection (ETD) is of great importance because it makes the SG cost-efficient. Existing methods for ETD cannot efficiently handle data imbalance, missing values, variance and non-linear data problems in the smart meter data. Therefore, an effective integrated strategy is required to address underlying issues and accurately detect electricity theft using big data. In this work, a simple yet effective approach is proposed by integrating two different modules, such as data pre-processing and classification, in a single framework. The first module involves data imputation, outliers handling, standardization and class balancing steps to generate quality data for classifier training. The second module classifies honest and dishonest users with a Support Vector Machine (SVM) classifier. To improve the classifier’s learning trend and accuracy, a Bayesian optimization algorithm is used to tune SVM’s hyperparameters. Simulation results confirm that the proposed framework for ETD significantly outperforms previous machine learning approaches such as random forest, logistic regression and SVM in terms of accuracy.</p>
 </div>
 
@@ -301,15 +301,15 @@ vide helpful information to grid planners seeking to improve the resilience of t
 # 2020
 
 **IU Khan, N Javaid, CJ Taylor, KAA Gamage, MA Xiandong, “Optimal Power Flow Solution with Uncertain RES using Augmented Grey Wolf Optimzation,” _IEEE PES Powercon_, 2021.**
-<div class="button-group-ULLAH_TIM2025" style="display:flex;gap:10px;text-align:center;justify-content:center;">
+<div class="button-group-ULLAH_POWERCON2021" style="display:flex;gap:10px;text-align:center;justify-content:center;">
 
-  <button id="abstractButton-ULLAH_TIM2025" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_TIM2025','abstractButton-ULLAH_TIM2025')">Abstract</button>
+  <button id="abstractButton-ULLAH_POWERCON2021" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_POWERCON2021','abstractButton-ULLAH_POWERCON2021')">Abstract</button>
   <a class="btn btn--research" target="_blank" href="https://eprints.gla.ac.uk/223504/2/223504.pdf">Link</a>
   <!-- <a class="btn btn--research" target="_blank" href="/files/papers/Inam_CV.pdf">Download</a>
   <a class="btn btn--research" target="_blank" href="https://github.com/dr-inamullahkhan/">Code</a> -->
 </div>
 
-<div id="abstract-ULLAH_TIM2025" style="display:none">
+<div id="abstract-ULLAH_POWERCON2021" style="display:none">
   <p>This work focuses on implementing the optimal power flow (OPF) problem, considering wind, solar and hydropower generation in the system. The stochastic nature of renewable energy sources (RES) is modelled using Weibull, Lognormal and Gumbel probability density functions. The system-wide economic aspect is examined with additional cost functions such as penalty and reserve costs for under and overestimating the imbalance of RES power outputs. Also, a carbon tax is imposed on carbon emissions as a separate objective function to enhance the contribution of green energy. For solving the optimization problem, a simple and efficient augmentation to the basic grey wolf optimization (GWO) algorithm is proposed, in order to enhance the algorithm's exploration capabilities. The performance of the new augmented GWO (AGWO) approach, in terms of robustness and scalability, is confirmed on IEEE-30, 57 and 118 bus systems. The obtained results of the AGWO algorithm are compared with modern heuristic techniques for a case of OPF incorporating RES. Numerical simulations indicate that the proposed method has better exploration and exploitation capabilities to reduce operational costs and carbon emissions.</p>
 </div>
 
@@ -320,15 +320,15 @@ vide helpful information to grid planners seeking to improve the resilience of t
 
 
 **IU Khan, N Javaid, CJ Taylor, KAA Gamage, X Ma, “Big Data Analytics based Short Term Load Forecasting Model for Residential Buildings in Smart Grids,” _IEEE INFOCOM_, 2020.**
-<div class="button-group-ULLAH_TIM2025" style="display:flex;gap:10px;text-align:center;justify-content:center;">
+<div class="button-group-ULLAH_INFOCOM2020" style="display:flex;gap:10px;text-align:center;justify-content:center;">
 
-  <button id="abstractButton-ULLAH_TIM2025" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_TIM2025','abstractButton-ULLAH_TIM2025')">Abstract</button>
+  <button id="abstractButton-ULLAH_INFOCOM2020" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_INFOCOM2020','abstractButton-ULLAH_INFOCOM2020')">Abstract</button>
   <a class="btn btn--research" target="_blank" href="https://eprints.gla.ac.uk/220696/6/220696.pdf">Link</a>
   <!-- <a class="btn btn--research" target="_blank" href="/files/papers/Inam_CV.pdf">Download</a>
   <a class="btn btn--research" target="_blank" href="https://github.com/dr-inamullahkhan/">Code</a> -->
 </div>
 
-<div id="abstract-ULLAH_TIM2025" style="display:none">
+<div id="abstract-ULLAH_INFOCOM2020" style="display:none">
   <p>Electricity load forecasting has always been a significant part of the smart grid. It ensures sustainability and helps utilities to take cost-efficient measures for power system planning and operation. Conventional methods for load forecasting cannot handle huge data that has a nonlinear relationship with load power. Hence an integrated approach is needed that adopts a coordinating procedure between different modules of electricity load forecasting. We develop a novel electricity load forecasting architecture that integrates three modules, namely data selection, extraction, and classification into a single model. First, essential features are selected with the help of random forest and recursive feature elimination methods. This helps reduce feature redundancy and hence computational overhead for the next two modules. Second, dimensionality reduction is realized with the help of a t-stochastic neighbourhood embedding algorithm for the best feature extraction. Finally, the electricity load is forecasted with the help of a deep neural network (DNN). To improve the learning trend and computational efficiency, we employ a grid search algorithm for tuning the critical parameters of the DNN. Simulation results confirm that the proposed model achieves higher accuracy when compared to the standard DNN.</p>
 </div>
 
@@ -341,15 +341,15 @@ vide helpful information to grid planners seeking to improve the resilience of t
 
 
 **IU Khan, N Javaid, KAA Gamage, CJ Taylor, S Baig, X Ma, “Heuristic algorithm based optimal power flow model incorporating stochastic renewable energy sources,” _IEEE Access_, 2020.**
-<div class="button-group-ULLAH_TIM2025" style="display:flex;gap:10px;text-align:center;justify-content:center;">
+<div class="button-group-ULLAH_ACCESS2020" style="display:flex;gap:10px;text-align:center;justify-content:center;">
 
-  <button id="abstractButton-ULLAH_TIM2025" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_TIM2025','abstractButton-ULLAH_TIM2025')">Abstract</button>
+  <button id="abstractButton-ULLAH_ACCESS2020" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_ACCESS2020','abstractButton-ULLAH_ACCESS2020')">Abstract</button>
   <a class="btn btn--research" target="_blank" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9167218">Link</a>
   <!-- <a class="btn btn--research" target="_blank" href="/files/papers/Inam_CV.pdf">Download</a>
   <a class="btn btn--research" target="_blank" href="https://github.com/dr-inamullahkhan/">Code</a> -->
 </div>
 
-<div id="abstract-ULLAH_TIM2025" style="display:none">
+<div id="abstract-ULLAH_ACCESS2020" style="display:none">
   <p>Today's electricity grid is rapidly evolving, with increased penetration of renewable energy sources (RES). Conventional Optimal Power Flow (OPF) has non-linear constraints that make it a highly non-linear, non-convex optimisation problem. This complex problem escalates further with the integration of RES, which are generally intermittent in nature. In this article, an optimal power flow model combines three types of energy resources, including conventional thermal power generators, solar photovoltaic generators (SPGs) and wind power generators (WPGs). Uncertain power outputs from SPGs and WPGs are forecasted with the help of lognormal and Weibull probability distribution functions, respectively. The over and underestimation output power of RES are considered in the objective function i.e. as a reserve and penalty cost, respectively. Furthermore, to reduce carbon emissions, a carbon tax is imposed while formulating the objective function. A grey wolf optimisation technique (GWO) is employed to achieve optimisation in modified IEEE-30 and IEEE-57 bus test systems to demonstrate its feasibility. Hence, novel contributions of this work include the new objective functions and associated framework for optimising generation cost while considering RES; and, secondly, computational efficiency is improved by the use of GWO to address the non-convex OPF problem. To investigate the effectiveness of the proposed GWO-based approach, it is compared in simulation to five other nature-inspired global optimisation algorithms and two well-established hybrid algorithms. For the simulation scenarios considered in this article, the GWO outperforms the other algorithms in terms of total cost minimisation and convergence time reduction.</p>
 </div>
 
@@ -362,15 +362,15 @@ vide helpful information to grid planners seeking to improve the resilience of t
 # 2019
 
 **M Usman, ZA Khan, IU Khan, S Javaid, N Javaid, “Data analytics for short term price and load forecasting in smart grids using enhanced recurrent neural network,” _Sixth HCT Information Technology Trends (ITT)_, 2019.**
-<div class="button-group-ULLAH_TIM2025" style="display:flex;gap:10px;text-align:center;justify-content:center;">
+<div class="button-group-ULLAH_ITT2019" style="display:flex;gap:10px;text-align:center;justify-content:center;">
 
-  <button id="abstractButton-ULLAH_TIM2025" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_TIM2025','abstractButton-ULLAH_TIM2025')">Abstract</button>
+  <button id="abstractButton-ULLAH_ITT2019" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_ITT2019','abstractButton-ULLAH_ITT2019')">Abstract</button>
   <a class="btn btn--research" target="_blank" href="https://www.researchgate.net/profile/Nadeem-Javaid/publication/329443964_Data_Analytics_for_Short_Term_Price_and_Load_Forecasting_in_Smart_Grids_using_Enhanced_Recurrent_Neural_Network_Technical_Report_for_MSCS_Course_Research_Methodology_in_Information_Technology_RMIT_CUI/links/5c08f99b92851c39ebd68cf8/Data-Analytics-for-Short-Term-Price-and-Load-Forecasting-in-Smart-Grids-using-Enhanced-Recurrent-Neural-Network-Technical-Report-for-MSCS-Course-Research-Methodology-in-Information-Technology-RMIT-CUI.pdf">Link</a>
   <!-- <a class="btn btn--research" target="_blank" href="/files/papers/Inam_CV.pdf">Download</a>
   <a class="btn btn--research" target="_blank" href="https://github.com/dr-inamullahkhan/">Code</a> -->
 </div>
 
-<div id="abstract-ULLAH_TIM2025" style="display:none">
+<div id="abstract-ULLAH_ITT2019" style="display:none">
   <p>In this paper, an artificial neural network (ANN) based methodology is proposed to forecast electricity load and price. The performance of an ANN forecast model depends on appropriate input parameters. Parameter tuning of ANN is very important to increase the accuracy of electricity price and load prediction. This is done using mutual information and decision tree. After selecting best features for forecasting, these features are given to forecasting engine working on principles of recurrent neural network (RNN). For simulations, dataset is taken from national electricity market (NEM), Australia. Results show that the methodology has increased the accuracy of electricity load and price forecast. Whereas, the error rate of forecasting is lower than the other models for electricity load and price.</p>
 </div>
 
@@ -382,15 +382,15 @@ vide helpful information to grid planners seeking to improve the resilience of t
 
 
 **M Abdullah, N Javaid, IU Khan, ZA Khan, A Chand, N Ahmad, “Optimal power flow with uncertain renewable energy sources using flower pollination algorithm,” _International conference on advanced information networking and applications_, 2019.**
-<div class="button-group-ULLAH_TIM2025" style="display:flex;gap:10px;text-align:center;justify-content:center;">
+<div class="button-group-ULLAH_AINA2019" style="display:flex;gap:10px;text-align:center;justify-content:center;">
 
-  <button id="abstractButton-ULLAH_TIM2025" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_TIM2025','abstractButton-ULLAH_TIM2025')">Abstract</button>
+  <button id="abstractButton-ULLAH_AINA2019" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_AINA2019','abstractButton-ULLAH_AINA2019')">Abstract</button>
   <a class="btn btn--research" target="_blank" href="https://www.researchgate.net/profile/Nadeem-Javaid/publication/331790041_Optimal_Power_Flow_with_Uncertain_Renewable_Energy_Sources_Using_Flower_Pollination_Algorithm/links/5c94d0ca299bf111693f289e/Optimal-Power-Flow-with-Uncertain-Renewable-Energy-Sources-Using-Flower-Pollination-Algorithm.pdf">Link</a>
   <!-- <a class="btn btn--research" target="_blank" href="/files/papers/Inam_CV.pdf">Download</a>
   <a class="btn btn--research" target="_blank" href="https://github.com/dr-inamullahkhan/">Code</a> -->
 </div>
 
-<div id="abstract-ULLAH_TIM2025" style="display:none">
+<div id="abstract-ULLAH_AINA2019" style="display:none">
   <p>Optimal power flow (OPF) problem has become more significant for operation and planning of electrical power systems because of the increasing energy demand. OPF is very important for system operators to fulfill the electricity demand of the consumers efficiently and for the reliable operation of the power system. The key objective in OPF is to reduce the total generating cost while assuring the system limitations. Due to environmental emission, depletion of fossil fuels and its higher prices, integration of renewable energy sources into the grid is essential. Classical OPF, which consider only thermal generators is a non-convex, non-linear optimization problem. However, incorporating the uncertain renewable sources adds complexity to the problem. A metaheuristic algorithm which solves the OPF problem with renewable energy sources is to be implemented on a modified IEEE 30-bus system.</p>
 </div>
 
@@ -402,15 +402,15 @@ vide helpful information to grid planners seeking to improve the resilience of t
 # 2018
 
 **IU Khan, X Ma, CJ Taylor, N Javaid, KAA Gamage, “Heuristic algorithm based dynamic scheduling model of home appliances in smart grid,” _24th International conference on automation and computing (ICAC)_, 2019.**
-<div class="button-group-ULLAH_TIM2025" style="display:flex;gap:10px;text-align:center;justify-content:center;">
+<div class="button-group-ULLAH_ICAC2018" style="display:flex;gap:10px;text-align:center;justify-content:center;">
 
-  <button id="abstractButton-ULLAH_TIM2025" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_TIM2025','abstractButton-ULLAH_TIM2025')">Abstract</button>
+  <button id="abstractButton-ULLAH_ICAC2018" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_ICAC2018','abstractButton-ULLAH_ICAC2018')">Abstract</button>
   <a class="btn btn--research" target="_blank" href="https://eprints.gla.ac.uk/171860/1/171860.pdf">Link</a>
   <!-- <a class="btn btn--research" target="_blank" href="/files/papers/Inam_CV.pdf">Download</a>
   <a class="btn btn--research" target="_blank" href="https://github.com/dr-inamullahkhan/">Code</a> -->
 </div>
 
-<div id="abstract-ULLAH_TIM2025" style="display:none">
+<div id="abstract-ULLAH_ICAC2018" style="display:none">
   <p>Smart grid provides an opportunity for customers as well as for utility companies to reduce electricity costs and regulate generation capacity. The success of scheduling algorithms mainly depends upon accurate information exchange between main grids and smart meters. On the other hand, customers are required to schedule loads, respond to energy demand signals, participate in energy bidding and actively monitor energy prices generated by the utility company. Strengthening communication infrastructure between the utility company and consumers can serve the purpose of consumer satisfaction. We propose a heuristic demand side management model for scheduling smart home appliances in an automated manner, to maximize the satisfaction of the consumers associated with it. Simulation results confirm that the proposed hybrid approach has the ability to reduce peak-to-average ratio of the total energy demand and reduce the total cost of the energy without compromising user comfort.</p>
 </div>
 
@@ -421,14 +421,14 @@ vide helpful information to grid planners seeking to improve the resilience of t
 # 2014
 
 **M Musharraf, IU Khan, N Khan, “Design of an Oscillating Coil Pendulum Energy Generating System,” _Procedia Computer Science_, 2019.**
-<div class="button-group-ULLAH_TIM2025" style="display:flex;gap:10px;text-align:center;justify-content:center;">
+<div class="button-group-ULLAH_CS2019" style="display:flex;gap:10px;text-align:center;justify-content:center;">
 
-  <button id="abstractButton-ULLAH_TIM2025" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_TIM2025','abstractButton-ULLAH_TIM2025')">Abstract</button>
+  <button id="abstractButton-ULLAH_CS2019" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_CS2019','abstractButton-ULLAH_CS2019')">Abstract</button>
   <a class="btn btn--research" target="_blank" href="https://www.sciencedirect.com/science/article/pii/S1877050914006711/pdf?md5=a9a2ce21f841a3c1d3b49d5aa16c7916&pid=1-s2.0-S1877050914006711-main.pdf">Link</a>
   <!-- <a class="btn btn--research" target="_blank" href="/files/papers/Inam_CV.pdf">Download</a>
   <a class="btn btn--research" target="_blank" href="https://github.com/dr-inamullahkhan/">Code</a> -->
 </div>
 
-<div id="abstract-ULLAH_TIM2025" style="display:none">
+<div id="abstract-ULLAH_CS2019" style="display:none">
   <p>The purpose of this paper is to study the theocratical work for a new type of wind power system. This wind system, called Wing oscillating coil rod pendulum system. This is a small prototype that generates low current and voltage. This system is a new type of wind turbine, to generate energy by using wind. One of the main elements of this system is a copper coil pendulum with flapping wing attached to it which oscillates at a low frequency when wind strikes it. The wind blowing kinetic energy compels the pendulum to oscillate, so the kinetic energy of wind is converted into oscillating energy of pendulum. The oscillating energy is then converted into electrical energy by using a semicircle shaped permanent magnet, which is placed under the coil rod pendulum. Theocratical construction and electrical design of wing oscillating coil rod pendulum system is discussed in this paper.</p>
 </div>
