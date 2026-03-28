@@ -16,7 +16,7 @@ The PDF files linked on this page are shared in accordance with the copyright po
 
 # 2025
 
-**I. Ullah, A. Ali, C. Taylor, and X. Ma, “Data-Driven Insights: Boosting Algorithms to Uncover Electricity Theft Patterns in AMI,” _IEEE Transactions on Instrumentation and Measurement_, 2025.**
+**Inam Khan, A. Ali, C. Taylor, and X. Ma, “Data-Driven Insights: Boosting Algorithms to Uncover Electricity Theft Patterns in AMI,” _IEEE Transactions on Instrumentation and Measurement_, 2025.**
 <div class="button-group-ULLAH_TIM2025" style="display:flex;gap:10px;text-align:center;justify-content:center;">
   <button id="abstractButton-ULLAH_TIM2025" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_TIM2025','abstractButton-ULLAH_TIM2025')">Abstract</button>
   <a class="btn btn--research" target="_blank" href="https://d197for5662m48.cloudfront.net/documents/publicationstatus/200539/preprint_pdf/25ddd6999758e8bad9de270553c19948.pdf">Link</a>
@@ -37,7 +37,7 @@ The PDF files linked on this page are shared in accordance with the copyright po
 
 
 
-**I. Ullah, K. Abdelghany, “Energy, Transportation, and Environment: A Graph Learning Framework for Multi-Sectoral Innovation Ecosystems,” _IEEE Transactions on Knowledge and Data Engineering_ (submitted), 2025.**
+**Inam Khan, K. Abdelghany, “Energy, Transportation, and Environment: A Graph Learning Framework for Multi-Sectoral Innovation Ecosystems,” _IEEE Transactions on Knowledge and Data Engineering_, 2025.**
 <div class="button-group-ULLAH_TKDE2025" style="display:flex;gap:10px;text-align:center;justify-content:center;">
   <button id="abstractButton-ULLAH_TKDE2025" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_TKDE2025','abstractButton-ULLAH_TKDE2025')">Abstract</button>
   <!-- <a class="btn btn--research" target="_blank" href="https://ieeexplore.ieee.org/document/10628648">Link</a> -->
@@ -58,16 +58,13 @@ The PDF files linked on this page are shared in accordance with the copyright po
 
 
 
-**I. Ullah, “A Predictive Analytics Framework for Policy-Driven Benchmarking and Promotion of Innovation Productivity in U.S. Cities,” _IEEE Transactions on Engineering Management_ (revisions submitted), 2025.**
+**Inam Khan, "A Predictive Analytics Framework for Policy-Driven Benchmarking and Promotion of Innovation Productivity in U.S. Cities," _IEEE Transactions on Engineering Management_, 2025.**
 <div class="button-group-ULLAH_TEM2025" style="display:flex;gap:10px;text-align:center;justify-content:center;">
   <button id="abstractButton-ULLAH_TEM2025" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_TEM2025','abstractButton-ULLAH_TEM2025')">Abstract</button>
-    <!-- <a class="btn btn--research" target="_blank" href="https://ieeexplore.ieee.org">Link</a>
-    <a class="btn btn--research" target="_blank" href="/files/papers/Inam_CV.pdf">Download</a>
-   <a class="btn btn--research" target="_blank" href="https://github.com/dr-inamullahkhan/">Code</a> -->
+  <a class="btn btn--research" target="_blank" href="https://ieeexplore.ieee.org/document/11296910">Link</a>
 </div>
-
 <div id="abstract-ULLAH_TEM2025" style="display:none">
-  <p>Benchmarks metro-level innovation productivity using multi-modal indicators and proposes policy levers for underperforming regions.</p>
+  <p>This article presents a data-driven framework for policy-oriented benchmarking and catalyzation of innovation productivity across 65 U.S. metropolitan areas. The study achieves a high level of research rigor by integrating multiple complementary analytical modules and systematically validating results through robust statistical and diagnostic tests. Specifically, the methodological design synthesizes three components: First, a multifeature selection pipeline that combines random forest, select K-best, and recursive feature elimination to ensure statistically reliable identification of innovation determinants; second, kernel principal component analysis with parameterized kernel functions optimized to capture complex nonlinear interdependencies among innovation factors; and third, a particle swarm optimization-enhanced gradient boosting machine that delivers exceptional predictive accuracy (R2 = 0.984, RMSE = 358.0) while demonstrating minimal overfitting (R2 differential between training and testing = 0.016). Rigor is further reinforced through systematic residual analysis and comprehensive sensitivity analysis, which together provide robust validation of the framework's reliability. These diagnostics reveal significant regional disparities in innovation performance relative to model predictions, with striking counterintuitive results. Several metropolitan areas substantially outperform expectations through strategic ecosystem alignment and policy coherence, while others exhibit considerable innovation deficits despite apparent structural advantages. Sensitivity analysis identifies STEM education infrastructure as the most influential driver of innovation, challenging conventional policy assumptions. The empirically validated framework equips engineering managers and policymakers with actionable, quantitative insights for designing targeted interventions, allocating resources effectively, and transforming underperforming regions into resilient innovation ecosystems through evidence-based strategies.</p>
 </div>
 
 
@@ -77,17 +74,13 @@ The PDF files linked on this page are shared in accordance with the copyright po
 
 
 
-
-**I. Ullah, “From Deserts to Hubs: A Data-Driven Framework for Mapping Innovation Productivity in the U.S.,” _IEEE Transactions on Computational Social Systems_ (revisions submitted), 2025.**
+**Inam Khan, "From Deserts to Hubs: A Data-Driven Framework for Mapping Innovation Productivity in the U.S.," _IEEE Transactions on Computational Social Systems_, 2025.**
 <div class="button-group-ULLAH_TCSS2025" style="display:flex;gap:10px;text-align:center;justify-content:center;">
   <button id="abstractButton-ULLAH_TCSS2025" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_TCSS2025','abstractButton-ULLAH_TCSS2025')">Abstract</button>
-  <!-- <a class="btn btn--research" target="_blank" href="https://ieeexplore.ieee.org/document/10628648">Link</a>
-  <a class="btn btn--research" target="_blank" href="/files/papers/Inam_CV.pdf">Download</a>
-  <a class="btn btn--research" target="_blank" href="https://github.com/dr-inamullahkhan/">Code</a> -->
+  <a class="btn btn--research" target="_blank" href="https://ieeexplore.ieee.org/abstract/document/11303866">Link</a>
 </div>
-
 <div id="abstract-ULLAH_TCSS2025" style="display:none">
-  <p>Identifies and tracks “innovation deserts” across 3,222 U.S. counties; proposes carbon-aware objective functions to align innovation and sustainability.</p>
+  <p>Innovation is a fundamental driver of economic growth, regional competitiveness, and societal well-being. Nonetheless, its benefits remain unevenly distributed, with many regions, so called "innovation deserts," struggling to translate potential into productivity due to systemic barriers and limited insight into the drivers of innovation. Motivated by this disparity, this article presents a novel data-driven framework for analyzing and benchmarking innovation productivity across the U.S. counties, identifying key determinants that drive regional innovation performance. The study covers over 3,200 U.S. counties and includes 108 attributes spanning innovation outputs, demographics, education levels, STEM participation, internet connectivity, business sizes, and economic indicators. The framework comprises three integrated modules: (1) a hybrid feature selection mechanism combining random forest importance scores with mutual information criteria; (2) a nonlinear dimensionality reduction module employing kernel-based principal component analysis; and (3) a particle swarm optimized XGBoost model (PSO-XGBoost) enabling sensitivity analysis and scenario-based forecasting. The framework demonstrates superior predictive performance (R² > 0.81) compared to five state-of-the-art boosting algorithms, offering policymakers interpretable, actionable insights for evidence-based regional innovation development.</p>
 </div>
 
 
@@ -97,7 +90,7 @@ The PDF files linked on this page are shared in accordance with the copyright po
 
 
 
-**M. Abbas, Y. Che, and I. Ullah, “A Novel Stacked Ensemble Framework with the Kolmogorov–Arnold Network for Short-Term Electric Load Forecasting,” _Energy_ (Elsevier), 137216, 2025.**
+**M. Abbas, Y. Che, and Inam Khan, “A Novel Stacked Ensemble Framework with the Kolmogorov–Arnold Network for Short-Term Electric Load Forecasting,” _Energy_ (Elsevier), 137216, 2025.**
 <div class="button-group-ULLAH_ENERGY2025" style="display:flex;gap:10px;text-align:center;justify-content:center;">
   <button id="abstractButton-ULLAH_ENERGY2025" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_ENERGY2025','abstractButton-ULLAH_ENERGY2025')">Abstract</button>
   <a class="btn btn--research" target="_blank" href="https://doi.org/10.1016/j.energy.2025.137216">Link</a>
@@ -118,7 +111,7 @@ The PDF files linked on this page are shared in accordance with the copyright po
 
 
 
-**A. Ullah, I. Ullah, and M. Z. Younas, “Robust Resampling and Stacked Learning Models for Electricity Theft Detection in Smart Grid,” _Energy Reports_, vol. 13, pp. 770–779, 2025.**
+**A. Ullah, Inam Khan, and M. Z. Younas, “Robust Resampling and Stacked Learning Models for Electricity Theft Detection in Smart Grid,” _Energy Reports_, vol. 13, pp. 770–779, 2025.**
 <div class="button-group-ULLAH_ER2025" style="display:flex;gap:10px;text-align:center;justify-content:center;">
   <button id="abstractButton-ULLAH_ER2025" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_ER2025','abstractButton-ULLAH_ER2025')">Abstract</button>
   <a class="btn btn--research" target="_blank" href="https://doi.org/10.1016/j.egyr.2025.01.123">Link</a>
@@ -138,7 +131,7 @@ The PDF files linked on this page are shared in accordance with the copyright po
 
 
 
-**X. Li, W. Lv, I. Ullah, B. Xie, and R. Zhu, “Explainable Electricity Theft Detection With Gradient-Weighted Class Activation Mapping,” _Electronics Letters_, vol. 61, no. 1, pp. 1–5, 2025.**
+**X. Li, W. Lv, Inam Khan, B. Xie, and R. Zhu, “Explainable Electricity Theft Detection With Gradient-Weighted Class Activation Mapping,” _Electronics Letters_, vol. 61, no. 1, pp. 1–5, 2025.**
 <div class="button-group-ULLAH_EL2025" style="display:flex;gap:10px;text-align:center;justify-content:center;">
   <button id="abstractButton-ULLAH_EL2025" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_EL2025','abstractButton-ULLAH_EL2025')">Abstract</button>
   <a class="btn btn--research" target="_blank" href="https://doi.org/10.1049/el.2025.1234">Link</a>
@@ -151,7 +144,7 @@ The PDF files linked on this page are shared in accordance with the copyright po
 </div>
 
 
-**M. Waqas, I. Ullah, and G. Aggidis, “Mitigating Intermittency in Offshore Wind Power Using Adaptive Nonlinear MPPT Control Techniques,” _Energies_, 2025.**
+**M. Waqas, Inam Khan, and G. Aggidis, “Mitigating Intermittency in Offshore Wind Power Using Adaptive Nonlinear MPPT Control Techniques,” _Energies_, 2025.**
 <div class="button-group-ULLAH_ENERGIES2025" style="display:flex;gap:10px;text-align:center;justify-content:center;">
   <button id="abstractButton-ULLAH_ENERGIES2025" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_ENERGIES2025','abstractButton-ULLAH_ENERGIES2025')">Abstract</button>
   <a class="btn btn--research" target="_blank" href="https://doi.org/10.3390/en18010123">Link</a>
@@ -167,7 +160,7 @@ The PDF files linked on this page are shared in accordance with the copyright po
 
 # 2022
 
-**IU Khan, N Javaid, CJ Taylor, X Ma, “Robust data driven analysis for electricity theft attack-resilient power grid,” _IEEE Transactions on Power Systems_, 2022.**
+**Inam Khan, N Javaid, CJ Taylor, X Ma, “Robust data driven analysis for electricity theft attack-resilient power grid,” _IEEE Transactions on Power Systems_, 2022.**
 <div class="button-group-ULLAH_TPS2025" style="display:flex;gap:10px;text-align:center;justify-content:center;">
 
   <button id="abstractButton-ULLAH_TPS2025" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_TPS2025','abstractButton-ULLAH_TPS2025')">Abstract</button>
@@ -185,7 +178,7 @@ The PDF files linked on this page are shared in accordance with the copyright po
 
 
 
-**IU Khan, N Javeid, CJ Taylor, KAA Gamage, X Ma, “A Stacked Machine and Deep Learning-Based Approach for Analysing Electricity Theft in Smart Grids,” _IEEE Transactions on Smart Grid_, 2022.**
+**Inam Khan, N Javeid, CJ Taylor, KAA Gamage, X Ma, “A Stacked Machine and Deep Learning-Based Approach for Analysing Electricity Theft in Smart Grids,” _IEEE Transactions on Smart Grid_, 2022.**
 <div class="button-group-ULLAH_TSG2022" style="display:flex;gap:10px;text-align:center;justify-content:center;">
 
   <button id="abstractButton-ULLAH_TSG2022" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_TSG2022','abstractButton-ULLAH_TSG2022')">Abstract</button>
@@ -206,7 +199,7 @@ The PDF files linked on this page are shared in accordance with the copyright po
 
 ## Thesis
 
-**IU Khan, “Optimal Demand Supply Energy Management in Smart Grid,” _PhD Thesis (University)_, 2022.**
+**Inam Khan, “Optimal Demand Supply Energy Management in Smart Grid,” _PhD Thesis (University)_, 2022.**
 <div class="button-group-ULLAH_THESIS2022" style="display:flex;gap:10px;text-align:center;justify-content:center;">
 
   <button id="abstractButton-ULLAH_THESIS2022" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_THESIS2022','abstractButton-ULLAH_THESIS2022')">Abstract</button>
@@ -278,7 +271,7 @@ vide helpful information to grid planners seeking to improve the resilience of t
 
 # 2021
 
-**IU Khan, N Javaid, CJ Taylor, KAA Gamage, X Ma, “Big Data Analytics for Electricity Theft Detection in Smart Grids,” _IEEE PES PowerTech_, 2021.**
+**Inam Khan, N Javaid, CJ Taylor, KAA Gamage, X Ma, “Big Data Analytics for Electricity Theft Detection in Smart Grids,” _IEEE PES PowerTech_, 2021.**
 <div class="button-group-ULLAH_POWTECH2021" style="display:flex;gap:10px;text-align:center;justify-content:center;">
 
   <button id="abstractButton-ULLAH_POWTECH2021" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_POWTECH2021','abstractButton-ULLAH_POWTECH2021')">Abstract</button>
@@ -300,7 +293,7 @@ vide helpful information to grid planners seeking to improve the resilience of t
 
 # 2020
 
-**IU Khan, N Javaid, CJ Taylor, KAA Gamage, MA Xiandong, “Optimal Power Flow Solution with Uncertain RES using Augmented Grey Wolf Optimzation,” _IEEE PES Powercon_, 2021.**
+**Inam Khan, N Javaid, CJ Taylor, KAA Gamage, MA Xiandong, “Optimal Power Flow Solution with Uncertain RES using Augmented Grey Wolf Optimzation,” _IEEE PES Powercon_, 2021.**
 <div class="button-group-ULLAH_POWERCON2021" style="display:flex;gap:10px;text-align:center;justify-content:center;">
 
   <button id="abstractButton-ULLAH_POWERCON2021" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_POWERCON2021','abstractButton-ULLAH_POWERCON2021')">Abstract</button>
@@ -319,7 +312,7 @@ vide helpful information to grid planners seeking to improve the resilience of t
 
 
 
-**IU Khan, N Javaid, CJ Taylor, KAA Gamage, X Ma, “Big Data Analytics based Short Term Load Forecasting Model for Residential Buildings in Smart Grids,” _IEEE INFOCOM_, 2020.**
+**Inam Khan, N Javaid, CJ Taylor, KAA Gamage, X Ma, “Big Data Analytics based Short Term Load Forecasting Model for Residential Buildings in Smart Grids,” _IEEE INFOCOM_, 2020.**
 <div class="button-group-ULLAH_INFOCOM2020" style="display:flex;gap:10px;text-align:center;justify-content:center;">
 
   <button id="abstractButton-ULLAH_INFOCOM2020" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_INFOCOM2020','abstractButton-ULLAH_INFOCOM2020')">Abstract</button>
@@ -340,7 +333,7 @@ vide helpful information to grid planners seeking to improve the resilience of t
 
 
 
-**IU Khan, N Javaid, KAA Gamage, CJ Taylor, S Baig, X Ma, “Heuristic algorithm based optimal power flow model incorporating stochastic renewable energy sources,” _IEEE Access_, 2020.**
+**Inam Khan, N Javaid, KAA Gamage, CJ Taylor, S Baig, X Ma, “Heuristic algorithm based optimal power flow model incorporating stochastic renewable energy sources,” _IEEE Access_, 2020.**
 <div class="button-group-ULLAH_ACCESS2020" style="display:flex;gap:10px;text-align:center;justify-content:center;">
 
   <button id="abstractButton-ULLAH_ACCESS2020" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_ACCESS2020','abstractButton-ULLAH_ACCESS2020')">Abstract</button>
@@ -361,7 +354,7 @@ vide helpful information to grid planners seeking to improve the resilience of t
 
 # 2019
 
-**M Usman, ZA Khan, IU Khan, S Javaid, N Javaid, “Data analytics for short term price and load forecasting in smart grids using enhanced recurrent neural network,” _Sixth HCT Information Technology Trends (ITT)_, 2019.**
+**M Usman, ZA Khan, Inam Khan, S Javaid, N Javaid, “Data analytics for short term price and load forecasting in smart grids using enhanced recurrent neural network,” _Sixth HCT Information Technology Trends (ITT)_, 2019.**
 <div class="button-group-ULLAH_ITT2019" style="display:flex;gap:10px;text-align:center;justify-content:center;">
 
   <button id="abstractButton-ULLAH_ITT2019" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_ITT2019','abstractButton-ULLAH_ITT2019')">Abstract</button>
@@ -381,7 +374,7 @@ vide helpful information to grid planners seeking to improve the resilience of t
 
 
 
-**M Abdullah, N Javaid, IU Khan, ZA Khan, A Chand, N Ahmad, “Optimal power flow with uncertain renewable energy sources using flower pollination algorithm,” _International conference on advanced information networking and applications_, 2019.**
+**M Abdullah, N Javaid, Inam Khan, ZA Khan, A Chand, N Ahmad, “Optimal power flow with uncertain renewable energy sources using flower pollination algorithm,” _International conference on advanced information networking and applications_, 2019.**
 <div class="button-group-ULLAH_AINA2019" style="display:flex;gap:10px;text-align:center;justify-content:center;">
 
   <button id="abstractButton-ULLAH_AINA2019" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_AINA2019','abstractButton-ULLAH_AINA2019')">Abstract</button>
@@ -401,7 +394,7 @@ vide helpful information to grid planners seeking to improve the resilience of t
 
 # 2018
 
-**IU Khan, X Ma, CJ Taylor, N Javaid, KAA Gamage, “Heuristic algorithm based dynamic scheduling model of home appliances in smart grid,” _24th International conference on automation and computing (ICAC)_, 2019.**
+**Inam Khan, X Ma, CJ Taylor, N Javaid, KAA Gamage, “Heuristic algorithm based dynamic scheduling model of home appliances in smart grid,” _24th International conference on automation and computing (ICAC)_, 2019.**
 <div class="button-group-ULLAH_ICAC2018" style="display:flex;gap:10px;text-align:center;justify-content:center;">
 
   <button id="abstractButton-ULLAH_ICAC2018" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_ICAC2018','abstractButton-ULLAH_ICAC2018')">Abstract</button>
@@ -420,7 +413,7 @@ vide helpful information to grid planners seeking to improve the resilience of t
 
 # 2014
 
-**M Musharraf, IU Khan, N Khan, “Design of an Oscillating Coil Pendulum Energy Generating System,” _Procedia Computer Science_, 2019.**
+**M Musharraf, Inam Khan, N Khan, “Design of an Oscillating Coil Pendulum Energy Generating System,” _Procedia Computer Science_, 2019.**
 <div class="button-group-ULLAH_CS2019" style="display:flex;gap:10px;text-align:center;justify-content:center;">
 
   <button id="abstractButton-ULLAH_CS2019" class="btn btn--research" onclick="toggleDiv('abstract-ULLAH_CS2019','abstractButton-ULLAH_CS2019')">Abstract</button>
