@@ -4,14 +4,23 @@
 
 .archive {
   margin-bottom: 2em;
+  line-height: 1.75;
+  overflow-wrap: anywhere;
 
   @include breakpoint($medium) {
-    @include span(12 of 12);
+    width: 100%;
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   @include breakpoint($large) {
-    @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
+    width: 100%;
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   a {
@@ -25,6 +34,77 @@
       }
     }
   }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: $border-radius;
+  }
+
+  @include breakpoint($medium-wide) {
+    p,
+    li {
+      text-align: justify;
+      text-justify: inter-word;
+      hyphens: auto;
+    }
+  }
+}
+
+.archive--publications {
+  > h1 {
+    margin-top: 1.75rem;
+    margin-bottom: 0.9rem;
+  }
+
+  > h1 + p,
+  > [id^="abstract-"] + p {
+    margin-top: 1.35rem;
+  }
+
+  > p {
+    margin-bottom: 0.35rem;
+  }
+
+  > p + [class^="button-group-"],
+  > p + [class*=" button-group-"] {
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+  }
+
+  > [id^="abstract-"] {
+    margin-top: 0.1rem;
+    margin-bottom: 1.2rem;
+  }
+
+  > [id^="abstract-"] + h1 {
+    margin-top: 2rem;
+  }
+
+  hr {
+    margin: 1.2rem 0 1.8rem;
+  }
+}
+
+.archive .btn--research {
+  border-radius: 0.8rem;
+  background: rgba(#fff, 0.75);
+  border: 1px solid mix(#fff, $info-color, 86%) !important;
+  box-shadow: 0 8px 18px rgba(#000, 0.03);
+  color: inherit !important;
+
+  &:hover {
+    color: inherit !important;
+    background: mix(#fff, $info-color, 90%) !important;
+    border-color: mix(#fff, $info-color, 70%) !important;
+  }
+}
+
+.archive .btn--research-active {
+  color: #fff !important;
+  background: $link-color !important;
+  border-color: $link-color !important;
+  box-shadow: 0 10px 20px rgba($link-color, 0.18);
 }
 
 .archive__subtitle {

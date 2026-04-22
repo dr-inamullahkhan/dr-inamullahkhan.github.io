@@ -4,7 +4,11 @@
 
 .masthead {
   position: relative;
+  background: rgba(#fff, 0.9);
   border-bottom: 1px solid $border-color;
+  box-shadow: 0 12px 30px rgba(#0b1a33, 0.05);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
@@ -45,6 +49,7 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
+  font-weight: 500;
 
   &--lg {
     padding-right: 2em;

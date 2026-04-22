@@ -49,6 +49,16 @@
   }
 }
 
+.layout__main--with-sidebar > .sidebar {
+  @include breakpoint($large) {
+    padding: 1.5rem;
+    background: linear-gradient(180deg, #fff 0%, mix(#fff, $lighter-gray, 70%) 100%);
+    border: 1px solid $border-color;
+    border-radius: 1rem;
+    box-shadow: 0 12px 32px rgba(#000, 0.05);
+  }
+}
+
 .sidebar__right {
   margin-bottom: 1em;
 
@@ -98,7 +108,7 @@
   vertical-align: top;
   padding-left: 15px;
   padding-right: 25px;
-  line-height: 1;
+  line-height: 1.4;
 
   @include breakpoint($large) {
     display: block;
@@ -123,10 +133,12 @@
 
 .author__bio {
   margin: 0;
+  color: $gray;
+  line-height: 1.6;
 
   @include breakpoint($large) {
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 0.18rem;
   }
 }
 
@@ -173,7 +185,10 @@
   cursor: default;
 
   @include breakpoint($large) {
-    display: block;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-auto-rows: 1fr;
+    gap: 0.5rem 0.65rem;
     position: relative;
     margin: 0;
     padding: 0;
@@ -218,6 +233,12 @@
 
   li {
     white-space: nowrap;
+    margin-bottom: 0.35rem;
+    min-width: 0;
+
+    @include breakpoint($large) {
+      margin-bottom: 0;
+    }
   }
 
   a {
@@ -229,9 +250,109 @@
     color: inherit;
     font-size: $type-size-5;
     text-decoration: none;
+    overflow-wrap: anywhere;
+    white-space: normal;
 
     &:hover {
       text-decoration: underline;
     }
+
+    @include breakpoint($large) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      min-height: 100%;
+      margin-bottom: 0;
+      padding: 0.42rem 0.55rem;
+      border-radius: 0.8rem;
+      background: rgba(#fff, 0.75);
+      border: 1px solid mix(#fff, $info-color, 86%);
+      text-decoration: none;
+      box-shadow: 0 8px 18px rgba(#000, 0.03);
+      font-size: $type-size-6;
+      line-height: 1.1;
+      text-align: center;
+
+      &:hover {
+        text-decoration: none;
+        background: mix(#fff, $info-color, 90%);
+        border-color: mix(#fff, $info-color, 70%);
+      }
+    }
   }
+
+  .fa-fw,
+  .ai-fw {
+    width: 1.2rem;
+    line-height: 1;
+    text-align: center;
+    flex-shrink: 0;
+  }
+}
+
+.author__details {
+  margin-top: 0.05rem;
+  margin-bottom: 0.9rem;
+}
+
+.author__detail {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.35rem;
+  margin: 0.08rem 0 0;
+  color: $gray;
+  font-size: 0.9rem;
+  line-height: 1.45;
+
+  .fa,
+  .fas {
+    margin-top: 0.15rem;
+    color: $info-color;
+    flex-shrink: 0;
+  }
+
+  span {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+}
+
+.author__detail--email {
+  margin-top: 0.3rem;
+  margin-bottom: 0.6rem;
+}
+
+.author__detail-link {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 0.35rem;
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    color: $link-color;
+    text-decoration: underline;
+  }
+}
+
+.author__meta-item {
+  display: block;
+  padding: 2px 0;
+
+  @include breakpoint($large) {
+    display: flex;
+    align-items: center;
+    min-height: 100%;
+    padding: 0.55rem 0.7rem;
+    border-radius: 0.8rem;
+    background: rgba(#fff, 0.75);
+    border: 1px solid mix(#fff, $info-color, 86%);
+    box-shadow: 0 8px 18px rgba(#000, 0.03);
+  }
+}
+
+.visitor-counter img {
+  max-width: 100%;
+  height: auto;
 }

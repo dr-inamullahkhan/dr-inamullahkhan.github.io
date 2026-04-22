@@ -1,3 +1,11 @@
 _site/
-removed
+.bundle/
+.bundle-user/
+.appdata/
+.localappdata/
+.gem-specs/
+.jekyll-cache/
+vendor/
+_site-server.log
+_site-server.err.log
 

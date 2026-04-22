@@ -153,30 +153,42 @@
 
   /* research page buttons */
   &--research {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+    min-height: 2.05rem;
     margin-bottom: 0.25em;
-    padding: 0.3em 0.75em;
+    padding: 0.34em 0.8em;
     font-size: $type-size-button;
-    color: $link-color;
+    font-weight: 600;
+    line-height: 1.15;
+    color: $link-color !important;
     text-align: center;
     text-decoration: none !important;
-    border: none;
+    background-color: mix(#fff, $info-color, 92%);
+    border: 1px solid mix(#fff, $info-color, 72%) !important;
     outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    appearance: none;
+    -webkit-appearance: none;
+    vertical-align: top;
     cursor: pointer;
 
     &:hover {
       color: #fff;
       background-color: $link-color !important;
-      border: none;
+      border-color: $link-color !important;
       outline: none;
     }
   }
 
     /* Active state for research buttons */
   &--research-active {
-    background-color: $link-color !important; /* Slightly darker background */
-    color: #fff; /* Text color for active state */
-    border: none;
+    background-color: $link-color !important;
+    color: #fff !important;
+    border-color: $link-color !important;
     outline: none;
   }
 

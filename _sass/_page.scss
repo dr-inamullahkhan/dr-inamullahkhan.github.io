@@ -12,15 +12,80 @@
   animation-delay: 0.35s;
 
   @include breakpoint($x-large) {
-    max-width: $x-large;
+    max-width: 1440px;
+  }
+}
+
+.layout__main--with-sidebar {
+  @include breakpoint($large) {
+    display: grid;
+    grid-template-columns: minmax(220px, 260px) minmax(0, 1fr);
+    gap: 1.75rem;
+    align-items: start;
+  }
+}
+
+.layout__main--with-sidebar > .sidebar,
+.layout__main--with-sidebar > .page,
+.layout__main--with-sidebar > .archive,
+.layout__main--with-sidebar > .page__related,
+.layout__main--full > .page,
+.layout__main--full > .archive {
+  min-width: 0;
+
+  @include breakpoint($large) {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.layout__main--with-sidebar > .sidebar {
+  @include breakpoint($large) {
+    grid-column: 1;
+  }
+}
+
+.layout__main--with-sidebar > .page,
+.layout__main--with-sidebar > .archive,
+.layout__main--full > .page,
+.layout__main--full > .archive {
+  position: relative;
+  padding: 1.35rem 1.1rem;
+  background: rgba(#fff, 0.96);
+  border: 1px solid mix(#fff, $info-color, 88%);
+  border-radius: 1.25rem;
+  box-shadow: 0 20px 48px rgba(#0b1a33, 0.06);
+  overflow: hidden;
+
+  @include breakpoint($medium) {
+    padding: 1.75rem 1.5rem;
+  }
+
+  @include breakpoint($large) {
+    padding: 2rem 2rem;
+  }
+}
+
+.layout__main--with-sidebar > .page,
+.layout__main--with-sidebar > .archive,
+.layout__main--with-sidebar > .page__related {
+  @include breakpoint($large) {
+    grid-column: 2;
   }
 }
 
 .page {
   @include breakpoint($large) {
-    @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
-    @include suffix(2 of 12);
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .page__inner-wrap {
@@ -36,7 +101,8 @@
 
 .page__title {
   margin-top: 0;
-  line-height: 1;
+  line-height: 1.05;
+  color: $darker-gray;
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -49,14 +115,22 @@
 }
 
 .page__content {
+  line-height: 1.75;
+  overflow-wrap: anywhere;
 
   h2 {
-    padding-bottom: 0.5em;
-    border-bottom: 1px solid $border-color;
+    margin-top: 2.35rem;
+    padding-bottom: 0.55em;
+    border-bottom: 2px solid mix(#fff, $info-color, 78%);
+  }
+
+  h3 {
+    color: $darker-gray;
   }
 
   p, li, dl {
     font-size: 1em;
+    line-height: 1.75;
   }
 
   /* paragraph indents */
@@ -69,6 +143,21 @@
         text-indent: $indent-var;
         margin-top: -($indent-var);
       }
+    }
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @include breakpoint($medium-wide) {
+    p,
+    li,
+    dl {
+      text-align: justify;
+      text-justify: inter-word;
+      hyphens: auto;
     }
   }
 
@@ -104,6 +193,58 @@
   blockquote + .small {
     margin-top: -1.5em;
     padding-left: 1.25rem;
+  }
+}
+
+.page__content [class^="button-group-"],
+.page__content [class*=" button-group-"],
+.archive [class^="button-group-"],
+.archive [class*=" button-group-"] {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 0.75rem !important;
+  justify-content: flex-start !important;
+  margin: 0.75rem 0 1.25rem;
+}
+
+.page__content [class^="button-group-"] > .btn,
+.page__content [class*=" button-group-"] > .btn,
+.archive [class^="button-group-"] > .btn,
+.archive [class*=" button-group-"] > .btn {
+  align-self: stretch;
+}
+
+.page__content [class^="button-group-"] > p,
+.page__content [class*=" button-group-"] > p,
+.archive [class^="button-group-"] > p,
+.archive [class*=" button-group-"] > p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: inherit;
+  margin: 0;
+}
+
+.page__content [class^="button-group-"] > p > .btn,
+.page__content [class*=" button-group-"] > p > .btn,
+.archive [class^="button-group-"] > p > .btn,
+.archive [class*=" button-group-"] > p > .btn {
+  align-self: stretch;
+  margin-bottom: 0;
+}
+
+.page__content [id^="abstract-"],
+.archive [id^="abstract-"] {
+  margin: 0 0 1.5rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  background: mix(#fff, $info-color, 97%);
+  box-shadow: 0 8px 24px rgba(#000, 0.04);
+
+  p:last-child {
+    margin-bottom: 0;
   }
 }
 
@@ -385,7 +526,8 @@
   float: left;
 
   @include breakpoint($large) {
-    @include pre(2.5 of 12);
+    margin-left: 0;
+    width: 100%;
   }
 
   a {
