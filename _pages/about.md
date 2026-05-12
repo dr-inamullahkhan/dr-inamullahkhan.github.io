@@ -3,11 +3,6 @@ permalink: /
 title: "About Me"
 author_profile: true
 ---
----
-permalink: /
-title: "About Me"
-author_profile: true
----
 I build and benchmark large language models on **NVIDIA DGX A100 supercomputers**. As a **[Postdoctoral Fellow](https://www.smu.edu/provost/odonnell-institute/about/people/inam)** at **Southern Methodist University's [O'Donnell Data Science and Research Computing Institute (ODSRCI)](https://www.smu.edu/provost/odonnell-institute)**, I work under **[Dr. Neena Imam](https://www.smu.edu/provost/odonnell-institute/about/people/neena)** (Peter O'Donnell Jr. Director of ODSRCI), which co-manages **[SMU's NVIDIA DGX SuperPOD](https://www.smu.edu/oit/services/superpod)**, a 20-node, 160-GPU A100 AI supercomputer among the most powerful research computing platforms in the United States.
 
 My recent work spans **distributed LLM fine-tuning with multi-node DDP** (1 to 12 A100 GPUs, including heterogeneous Slurm hetjob configurations), **graph neural networks** for innovation ecosystem analysis, and **applied AI for critical infrastructure**, smart grids, transportation electrification, and grid security.
