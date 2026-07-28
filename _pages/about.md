@@ -42,12 +42,11 @@ Some recent works:
 ## About Me Beyond Research
 Based in **Dallas, Texas**, I enjoy exploring the intersection of **technology, sustainability, and policy**. Outside of work, I’m an advocate for **STEM education** and actively mentor early-career researchers.
 
-<div style="width: 100%; margin: 0 auto; text-align: center;">
-  <img src="/images/StackedModel.png" alt="Smart Grid Visualization" title="Smart Grid Research" style="width: 32%;">
-  <img src="/images/StackedModel2.png" alt="Machine Learning Models" title="Machine Learning" style="width: 32%;">
-  <img src="/images/RobustModel.png" alt="Renewable Energy" title="Renewable Energy" style="width: 32%;">
-  <sub><em>
+<figure class="research-gallery">
+  <img src="/images/StackedModel.png" alt="Smart grid visualization" width="960" height="835" loading="lazy" decoding="async">
+  <img src="/images/StackedModel2.png" alt="Machine learning model visualization" width="756" height="733" loading="lazy" decoding="async">
+  <img src="/images/RobustModel.png" alt="Renewable energy integration visualization" width="1645" height="785" loading="lazy" decoding="async">
+  <figcaption>
     Left: Smart grid simulations. Middle: Machine learning model visualizations. Right: Renewable energy integration.
-  </em></sub>
-</div>
-<br />
+  </figcaption>
+</figure>

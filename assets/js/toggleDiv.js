@@ -6,12 +6,11 @@ function toggleDiv(elementId, buttonId) {
         return;
     }
 
-    const isHidden = panel.hidden || window.getComputedStyle(panel).display === "none";
+    const willExpand = panel.hidden;
 
-    panel.hidden = !isHidden ? true : false;
-    panel.style.display = isHidden ? "block" : "none";
-    button.classList.toggle("btn--research-active", isHidden);
-    button.setAttribute("aria-expanded", isHidden ? "true" : "false");
+    panel.hidden = !willExpand;
+    button.classList.toggle("btn--research-active", willExpand);
+    button.setAttribute("aria-expanded", String(willExpand));
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -26,8 +25,6 @@ document.addEventListener("DOMContentLoaded", () => {
         button.setAttribute("aria-controls", panelId);
         button.setAttribute("aria-expanded", "false");
 
-        if (window.getComputedStyle(panel).display === "none") {
-            panel.hidden = true;
-        }
+        panel.hidden = true;
     });
 });

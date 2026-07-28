@@ -35,7 +35,7 @@ Developed robust frameworks for **attack-resilient power grids**, including **he
 - IEEE Transactions on Instrumentation and Measurement, 2025  
 - Elsevier Energy Reports, 2025  
 
-<img src="/images/StackedModel.png" alt="Smart Grid Visualization" title="Smart Grid Research" style="width: 50%;">
+<img src="/images/StackedModel.png" alt="Smart grid visualization" width="960" height="835" loading="lazy" decoding="async">
 
 ---
 
@@ -49,7 +49,7 @@ Developed **big data analytics frameworks** for:
 
 These models improved forecasting accuracy and reduced computational costs, enabling scalable deployment in large-scale power networks.
 
-<img src="/images/SmartGrid.png" alt="Smart Grid Visualization" title="Smart Grid Research" style="width: 50%;">
+<img src="/images/SmartGrid.png" alt="Smart grid visualization" width="1001" height="597" loading="lazy" decoding="async">
 
 ---
 

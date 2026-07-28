@@ -248,6 +248,27 @@
   }
 }
 
+.research-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  align-items: start;
+  margin: 2rem 0;
+
+  img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    object-fit: cover;
+  }
+
+  figcaption {
+    grid-column: 1 / -1;
+    margin: 0;
+    text-align: center;
+  }
+}
+
 .page__hero {
   position: relative;
   margin-bottom: 2em;
