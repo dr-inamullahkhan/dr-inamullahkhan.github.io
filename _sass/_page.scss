@@ -5,7 +5,7 @@
 #main {
   @include container;
   @include clearfix;
-  margin-top: 2em;
+  margin-top: 2.8rem;
   padding-left: 1em;
   padding-right: 1em;
   animation: intro 0.3s both;
@@ -56,9 +56,9 @@
   position: relative;
   padding: 1.35rem 1.1rem;
   background: rgba(#fff, 0.96);
-  border: 1px solid mix(#fff, $info-color, 88%);
-  border-radius: 1.25rem;
-  box-shadow: 0 20px 48px rgba(#0b1a33, 0.06);
+  border: 1px solid mix(#fff, $primary-color, 90%);
+  border-radius: 1.35rem;
+  box-shadow: 0 20px 48px rgba(#0b1a33, 0.08);
   overflow: hidden;
 
   @include breakpoint($medium) {
@@ -102,7 +102,9 @@
 .page__title {
   margin-top: 0;
   line-height: 1.05;
-  color: $darker-gray;
+  color: $primary-color;
+  font-size: clamp(1.9rem, 4vw, 2.55rem);
+  letter-spacing: -0.04em;
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -121,11 +123,12 @@
   h2 {
     margin-top: 2.35rem;
     padding-bottom: 0.55em;
-    border-bottom: 2px solid mix(#fff, $info-color, 78%);
+    color: $primary-color;
+    border-bottom: 2px solid mix(#fff, $info-color, 72%);
   }
 
   h3 {
-    color: $darker-gray;
+    color: mix($primary-color, #000, 82%);
   }
 
   p, li, dl {
@@ -238,10 +241,11 @@
 .archive [id^="abstract-"] {
   margin: 0 0 1.5rem;
   padding: 1rem 1.25rem;
-  border: 1px solid $border-color;
-  border-radius: $border-radius;
-  background: mix(#fff, $info-color, 97%);
-  box-shadow: 0 8px 24px rgba(#000, 0.04);
+  border: 1px solid mix(#fff, $info-color, 82%);
+  border-left: 4px solid $info-color;
+  border-radius: 0 $border-radius $border-radius 0;
+  background: mix(#fff, $info-color, 96%);
+  box-shadow: 0 8px 24px rgba(#0b1a33, 0.05);
 
   p:last-child {
     margin-bottom: 0;
@@ -260,6 +264,15 @@
     height: auto;
     margin: 0;
     object-fit: cover;
+    border: 1px solid mix(#fff, $primary-color, 88%);
+    border-radius: 0.9rem;
+    box-shadow: 0 10px 24px rgba(#0b1a33, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 16px 30px rgba(#0b1a33, 0.14);
+    }
   }
 
   figcaption {

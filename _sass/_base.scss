@@ -14,7 +14,9 @@ body {
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;
-  background: linear-gradient(180deg, #f3f7fb 0, #ffffff 14rem);
+  background:
+    radial-gradient(circle at 100% 0, rgba(#0b7a75, 0.11), transparent 27rem),
+    linear-gradient(180deg, #f4f8fc 0, #ffffff 18rem);
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -28,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $header-font-family;
   font-weight: bold;
   color: $darker-gray;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.025em;
 }
 
 h1 {
@@ -128,6 +130,11 @@ a {
   &:active {
     outline: 0;
   }
+}
+
+:focus-visible {
+  outline: 3px solid rgba($info-color, 0.5);
+  outline-offset: 3px;
 }
 
 /* code */

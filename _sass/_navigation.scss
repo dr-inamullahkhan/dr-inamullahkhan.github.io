@@ -182,6 +182,7 @@
     margin: 0 1rem;
     padding: 0.5rem 0;
     color: $masthead-link-color;
+    font-size: 0.92rem;
     text-decoration: none;
 
     &:hover {
@@ -248,7 +249,8 @@
       }
 
       &.is-active {
-        color: $masthead-link-color-hover;
+        color: $primary-color;
+        font-weight: 700;
         text-shadow: 0 1px 12px rgba($primary-color, 0.18);
 
         &:before {

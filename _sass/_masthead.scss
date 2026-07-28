@@ -3,10 +3,11 @@
    ========================================================================== */
 
 .masthead {
-  position: relative;
-  background: rgba(#fff, 0.9);
+  position: sticky;
+  top: 0;
+  background: rgba(#fff, 0.94);
   border-bottom: 1px solid $border-color;
-  box-shadow: 0 12px 30px rgba(#0b1a33, 0.05);
+  box-shadow: 0 10px 28px rgba(#0b1a33, 0.08);
   -webkit-backdrop-filter: blur(12px);
           backdrop-filter: blur(12px);
   -webkit-animation: intro 0.3s both;
@@ -18,7 +19,7 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 1em 1em 1em;
+    padding: 0.72rem 1rem;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -52,7 +53,13 @@
   font-weight: 500;
 
   &--lg {
-    padding-right: 2em;
+    padding-right: 2.4em;
     font-weight: 700;
+
+    a {
+      color: $primary-color;
+      font-size: 1.04rem;
+      letter-spacing: -0.015em;
+    }
   }
 }
